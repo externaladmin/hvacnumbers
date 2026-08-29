@@ -58,7 +58,7 @@ function drawCard(
   const cardX = 90;
   const cardY = 340;
   const cardW = CARD_WIDTH - cardX * 2;
-  const cardH = 760;
+  const cardH = 880;
   ctx.fillStyle = "#ffffff";
   roundRect(ctx, cardX, cardY, cardW, cardH, 32);
   ctx.fill();
