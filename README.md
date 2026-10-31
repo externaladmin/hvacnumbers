@@ -5,19 +5,22 @@ one calculator: **Static Pressure (External Static Pressure / ESP)**.
 
 ## Stack
 
-Next.js 14 (App Router) · Vercel · Supabase · Resend · GA4 · installable PWA.
+Next.js 15 (App Router) · Vercel · Supabase · Resend · GA4 · installable PWA.
+
+New to the project? Read [docs/HANDOFF.md](docs/HANDOFF.md) first. It has the
+current state, open decisions and the things only the owner can do.
 
 ## Getting started locally
 
-This was authored in a sandbox with no Node.js installed, so it has not been run
-through `npm install` / `npm run build` yet. On a machine with Node 18.17+:
+Needs Node 18.18+ (developed on Node 24 via nvm):
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open http://localhost:3000.
+Then open http://localhost:3000. The dev server and type-check have been
+verified; a production `npm run build` has not been run yet.
 
 ## Environment variables
 
